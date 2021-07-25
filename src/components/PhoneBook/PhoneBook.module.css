@@ -1,0 +1,33 @@
+.item {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  margin: 10px;
+  border: 2px solid rgb(3, 3, 112);
+  border-radius: 10px;
+}
+
+.itemName {
+  font-size: 32px;
+}
+
+.button {
+  display: block;
+  width: 60%;
+  height: 40px;
+  margin: 10px auto;
+  color: rgb(88, 88, 99);
+  background: rgb(202, 202, 202);
+  border: 2px solid rgb(202, 202, 202);
+  border-radius: 10px;
+  cursor: auto;
+  font-size: 23px;
+}
+
+.button:hover, 
+.button:focus {
+  color: rgb(100, 100, 168);
+  border: 2px solid rgb(100, 100, 168);
+}

@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 5px 5px -5px #020200;
+  background-color: rgb(201, 200, 255);
+  border-radius: 3px;
+  font-size: 24px;
+  height: 45px;
+  color: rgb(3, 3, 112);
+}
+
+.headerFont {
+  font-size: 20px;
+}
+
+.UserMenu {
+  display: flex;
+  align-items: center;
+}
+
+.UserMenu img {
+  margin-right: 10px;
+}
+
+.navigation {
+  display: flex;
+}
+
+.navigation li {
+  margin-right: 20px;
+  padding-left: 20px;
+}

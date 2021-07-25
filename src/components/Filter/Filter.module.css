@@ -1,0 +1,22 @@
+.formNameTitle {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 10px;
+  font-size: 24px;
+}
+
+.formNameInput {
+  width: 100%;
+  padding: 10px;
+  color: rgb(3, 3, 112);
+  border: 1px solid transparent;
+  border-bottom: 2px solid rgb(3, 3, 112);
+  font-size: 24px;
+}
+
+.formNameInput::placeholder {
+  color: rgb(204, 204, 223);
+}
